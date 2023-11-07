@@ -45,6 +45,7 @@
 }
 /* sidebar */
 .sidebar{
+    position: relative;
     height: 100%;
     width: 300px;
     background-color: black;
@@ -97,7 +98,35 @@
     font-size: 18px;
     font-weight: 500;
 }
-
+/* bottom of sidebar */
+.bottom-sidebar{
+    position: absolute;
+    bottom: 0px;
+}
+.d-flex-gap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.download img{
+    width: 25px;
+}
+.bottom-sidebar hr{
+  border: 1px solid #717171;
+  width: 250px;
+}
+.user{
+    height: 30px;
+    width: 30px;
+    background-color: #A3A3A3;
+    border-radius: 50%;
+    background-image: url("../img/profile.svg");
+    background-size: cover;
+}
+.user-name{
+    color: #fff;
+}
 /* main content */
 .content{
     height: 100%;
