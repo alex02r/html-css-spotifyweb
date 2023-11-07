@@ -7,7 +7,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+.padding-x-20{
+    padding: 0 20px;
+}
 .margin-top-100{
     margin-top: 100px;
 }
@@ -24,8 +26,6 @@
 /* column */
 .col-15{
     width: calc(100% / 6 - 10px);
-    height: 100px;
-    background-color: bisque;
 }
 .col-100{
     width: 100%;
@@ -137,6 +137,7 @@
     overflow-y: auto;
     background-color: #141922;
 }
+/* navbar of main */
 .navigation{
     max-width: 900px;
     margin: 0 auto;
@@ -151,7 +152,25 @@
     padding: 10px;
     color: #A3A3A3;
 }
-
+/* text of row */
+.text-main h2{
+    color: #fff;
+    padding: 20px 0;
+}
+/* album's */
+.album img{
+    width: 100%;
+}
+.text-album{
+    text-align: center;
+}
+.text-album h3{
+    color: #fff;
+    padding: 10px 0;
+}
+.text-album p{
+    color: #717171;
+}
 /* upgrade */
 .upgrade{
     background-color: rgba(49, 49, 49, 0.274);
