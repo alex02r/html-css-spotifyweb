@@ -192,9 +192,17 @@
     position: fixed;
     z-index: 1;
     height: 75px;
-    width: 100%;
+    width: calc(100% - 300px);
 }
-
+.btn-upgrade{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     /* fix main content */
