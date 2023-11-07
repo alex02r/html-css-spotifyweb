@@ -16,3 +16,18 @@
     height: 75px;
     background-color: grey;
 }
+.top-content{
+    display: flex;
+    height: 100%;
+}
+/* sidebar */
+.sidebar{
+    height: 100%;
+    width: 300px;
+    background-color: black;
+}
+.content{
+    height: 100%;
+    width: calc(100vw - 300px);
+    background-color: rgb(46, 157, 255);
+}
