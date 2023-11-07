@@ -187,6 +187,8 @@
     position: fixed;
     z-index: 1;
     width: calc(100% - 300px);
+    text-align: right;
+    padding: 20px;
 }
 .btn-upgrade{
     background: none;
@@ -215,7 +217,7 @@
     .sidebar{
         width: 80px;
     }
-    .content{
+    .content, .upgrade{
         width: calc(100vw - 80px);
     }
     .hidden{
