@@ -26,8 +26,17 @@
     width: 300px;
     background-color: black;
 }
+/* main content */
 .content{
     height: 100%;
     width: calc(100vw - 300px);
     background-color: rgb(46, 157, 255);
+}
+/* upgrade */
+.upgrade{
+    background-color: rgba(49, 49, 49, 0.274);
+    position: fixed;
+    z-index: 1;
+    height: 75px;
+    width: 100%;
 }
