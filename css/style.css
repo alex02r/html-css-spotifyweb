@@ -14,6 +14,28 @@
 .height-500{
     height: 500px;
 }
+.margin-top-100{
+    margin-top: 100px;
+}
+/* COMMON */
+.conteiner{
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* column */
+.col-15{
+    width: calc(100% / 6 - 10px);
+    height: 100px;
+    background-color: bisque;
+}
+.col-100{
+    width: 100%;
+}
 /* LAYOUT */
 .top{
     height: calc(100vh - 75px);
@@ -41,6 +63,7 @@
 .content{
     height: 100%;
     width: calc(100vw - 300px);
+    overflow-y: auto;
     background-color: rgb(46, 157, 255);
 }
 /* upgrade */
