@@ -74,3 +74,26 @@
     height: 75px;
     width: 100%;
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+    /* fix main content */
+    .col-25{
+        width: calc(100% / 4 - 10px);
+    }
+}
+@media screen and (max-width: 768px) {
+    /* fix main content */
+    .col-50{
+        width: calc(100% / 2 - 10px);
+    }
+}
+@media screen and (max-width: 650px) {
+    /* fix sidebar */
+    .sidebar{
+        width: 80px;
+    }
+    .content{
+        width: calc(100vw - 80px);
+    }
+}
