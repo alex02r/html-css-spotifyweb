@@ -55,6 +55,9 @@
 .logo img{
     width: 150px;
 }
+.show{
+    display: none;
+}
 .first-nav{
     margin-top: 20px;
 }
@@ -163,5 +166,17 @@
     }
     .content{
         width: calc(100vw - 80px);
+    }
+    .hidden{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    .logo img{
+        width: 35px;
+    }
+    .bottom-sidebar hr{
+        border: none;
     }
 }

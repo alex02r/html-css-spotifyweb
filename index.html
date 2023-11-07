@@ -16,16 +16,17 @@
             <div class="sidebar">
                 <!-- logo to sidebar -->
                 <div class="logo">
-                    <img src="./img/logo.svg" alt="">
+                    <img class="hidden" src="./img/logo.svg" alt="logo">
+                    <img class="show" src="./img/logo-small.svg" alt="logo">
                 </div>
                 <nav class="first-nav">
                     <ul>
-                        <li><img src="./img/home.svg" alt="Home"> Home</li>
-                        <li><img src="./img/search.svg" alt="Serch">Cerca</li>
-                        <li><img src="./img/libreria.svg" alt="Library">Libreria</li>
+                        <li><img src="./img/home.svg" alt="Home"><span class="hidden">Home</span></li>
+                        <li><img src="./img/search.svg" alt="Serch"><span class="hidden">Cerca</span></li>
+                        <li><img src="./img/libreria.svg" alt="Library"><span class="hidden">Libreria</span></li>
                     </ul>
                 </nav>
-                <nav>
+                <nav class="hidden">
                     <h3>PLAYLIST</h3>
                     <div class="add-playlist">
                         <div class="square-plus"> + </div>
@@ -46,14 +47,15 @@
                 <div class="bottom-sidebar">
                     <div class="download d-flex-gap">
                         <img src="./img/download.svg" alt="download"> 
-                        Install app
+                        <div class="hidden">Install app</div>
+                        
                     </div> 
                     
                     <hr>
                     
                     <div class="profile d-flex-gap">
                         <div class="user"></div>
-                        <div class="user-name">
+                        <div class="user-name hidden">
                             Jhon Doe
                         </div>
                     </div>
