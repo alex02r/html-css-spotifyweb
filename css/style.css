@@ -135,8 +135,23 @@
     height: 100%;
     width: calc(100vw - 300px);
     overflow-y: auto;
-    background-color: rgb(46, 157, 255);
+    background-color: #141922;
 }
+.navigation{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+.navigation ul li{
+    padding: 10px;
+    color: #A3A3A3;
+}
+
 /* upgrade */
 .upgrade{
     background-color: rgba(49, 49, 49, 0.274);
