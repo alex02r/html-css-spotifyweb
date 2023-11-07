@@ -45,7 +45,6 @@
 }
 /* sidebar */
 .sidebar{
-    position: relative;
     height: 100%;
     width: 300px;
     background-color: black;
@@ -102,10 +101,6 @@
     font-weight: 500;
 }
 /* bottom of sidebar */
-.bottom-sidebar{
-    position: absolute;
-    bottom: 0px;
-}
 .d-flex-gap{
     display: flex;
     align-items: center;
@@ -191,14 +186,13 @@
     background-color: rgba(49, 49, 49, 0.274);
     position: fixed;
     z-index: 1;
-    height: 75px;
     width: calc(100% - 300px);
 }
 .btn-upgrade{
     background: none;
     color: #fff;
     border: 1px solid #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     padding: 10px 20px;
     border-radius: 25px;
