@@ -153,9 +153,15 @@
     color: #A3A3A3;
 }
 /* text of row */
+.text-main{
+    padding: 20px 0;
+}
 .text-main h2{
     color: #fff;
-    padding: 20px 0;
+}
+.text-main p{
+    color: #A3A3A3;
+    padding: 10px 0;
 }
 /* album's */
 .album img{
@@ -171,6 +177,15 @@
 .text-album p{
     color: #717171;
 }
+/* artist's */
+.artist{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.artist img{
+    width: 100%;
+}
+
 /* upgrade */
 .upgrade{
     background-color: rgba(49, 49, 49, 0.274);
