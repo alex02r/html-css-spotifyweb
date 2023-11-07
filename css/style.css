@@ -7,6 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* COMMON TO REMOVE */
+.height-100{
+    height: 100px;
+}
+.height-500{
+    height: 500px;
+}
 /* LAYOUT */
 .top{
     height: calc(100vh - 75px);
@@ -25,6 +32,10 @@
     height: 100%;
     width: 300px;
     background-color: black;
+}
+.sidebar nav{
+    background-color: aliceblue;
+    border: 1px solid salmon;
 }
 /* main content */
 .content{
