@@ -6,3 +6,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/* LAYOUT */
+.top{
+    height: calc(100vh - 75px);
+    background-color: aquamarine;
+}
+.bottom{
+    height: 75px;
+    background-color: grey;
+}
