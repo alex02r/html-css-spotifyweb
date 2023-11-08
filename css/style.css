@@ -379,6 +379,14 @@
     display: block;
 }
 
+.song-play img:active{
+    transform: scale(1.5);
+}
+/* click on skip or back song */
+.player-bar i:nth-child(4):active, .player-bar i:nth-child(2):active{
+    transform: scale(1.2);
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     /* fix main content */
