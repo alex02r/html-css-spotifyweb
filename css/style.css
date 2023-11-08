@@ -296,6 +296,7 @@
 }
 .volume{
     display: flex;
+    align-items: center;
 }
 
 /* MEDIA QUERY */
