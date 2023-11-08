@@ -186,6 +186,9 @@
     padding: 10px 0;
 }
 /* album's */
+.album{
+    position: relative;
+}
 .album img{
     width: 100%;
 }
@@ -300,6 +303,20 @@
     display: flex;
     align-items: center;
 }
+
+
+/* HOVER EFFECT'S */
+/* main  */
+.selected{
+    position: relative;
+    left: 20px;
+    width: 50%;
+    border-bottom: 1px solid #ADFF2F;
+}
+.navigation ul li:hover{
+    color: #fff;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
