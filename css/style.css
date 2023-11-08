@@ -44,6 +44,11 @@
     height: 100%;
 }
 /* sidebar */
+.d-flex-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .sidebar{
     height: 100%;
     width: 300px;
