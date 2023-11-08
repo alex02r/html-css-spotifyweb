@@ -316,6 +316,27 @@
 .navigation ul li:hover{
     color: #fff;
 }
+/* album overlay */
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.364);
+}
+.overlay i{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.album:hover .overlay{
+    display: block;
+}
 
 
 /* MEDIA QUERY */
