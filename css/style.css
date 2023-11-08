@@ -309,8 +309,10 @@
 /* HOVER EFFECT'S */
 /* main  */
 .selected{
+    display: none;
     position: relative;
-    left: 20px;
+    left: 50%;
+    transform: translatex(-50%);
     width: 50%;
     border-bottom: 1px solid #ADFF2F;
 }
