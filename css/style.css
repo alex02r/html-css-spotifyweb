@@ -7,13 +7,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* COMMON */
 .padding-x-20{
     padding: 0 20px;
 }
 .margin-top-100{
     margin-top: 100px;
 }
-/* COMMON */
+.j-cont-between{
+    justify-content: space-between;
+}
 .conteiner{
     width: 100%;
 }
@@ -29,6 +33,12 @@
 }
 .col-100{
     width: 100%;
+}
+.near-player{
+    width: 25%;
+}
+.player{
+    width: 40%;
 }
 /* LAYOUT */
 .top{
