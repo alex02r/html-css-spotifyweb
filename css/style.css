@@ -246,6 +246,17 @@
     padding: 0 5px;
 }
 
+/* Player */
+.player-bar{
+    text-align: center;
+}
+.player-bar i{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     /* fix main content */
