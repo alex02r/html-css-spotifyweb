@@ -337,7 +337,10 @@
 .album:hover .overlay{
     display: block;
 }
-
+/* hover for button in header */
+.btn-upgrade:hover{
+    transform: scale(1.2);
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
