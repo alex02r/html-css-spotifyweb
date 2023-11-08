@@ -235,9 +235,11 @@
     width: 50px;
 }
 /* song played name */
+.song-play{
+    display: flex;
+}
 .text-player{
     padding: 0 10px;
-    float: right;
     color: #fff;
 }
 .text-player p{
@@ -291,8 +293,8 @@
 /* volume setting */
 .function-bar i {
     color: #fff;
-    font-size: 20px;
-    padding: 0 10px;
+    font-size: 16px;
+    padding: 0 5px;
 }
 .volume{
     display: flex;
