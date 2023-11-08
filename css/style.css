@@ -279,6 +279,7 @@
     font-weight: 600;
 }
 .status-bar{
+    position: relative;
     height: 5px;
     border-radius: 5px;
     background-color: rgba(106, 106, 106, 0.364);
@@ -348,8 +349,24 @@
 .add-playlist:hover .square-plus{
     background-color: #fff;
 }
-
-
+/* hover for status bar */
+.dot-on{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    transform: scale(2.2);/* to zoom without less the position center */
+    border-radius: 50%;
+    background-color: #fff;
+}
+.status-bar:hover .dot-on{
+    display: block;
+}
+.status-bar:hover .process-15{
+    background-color: #ADFF2F;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
