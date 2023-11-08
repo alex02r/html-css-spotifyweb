@@ -374,6 +374,10 @@
 .status-bar:hover .process-15{
     background-color: #ADFF2F;
 }
+/* animation */
+.navigation li:active .selected{
+    display: block;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
