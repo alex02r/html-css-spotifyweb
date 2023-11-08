@@ -49,7 +49,7 @@
     position: fixed;
     width: 100%;
     height: 75px;
-    background-color: grey;
+    background-color: #282828;
 }
 .top-content{
     display: flex;
@@ -221,6 +221,31 @@
     padding: 10px 20px;
     border-radius: 25px;
 }
+
+/* Bottom of page */
+.bottom-content{
+    display: flex;
+    align-items: center;
+}
+.song-play img{
+    width: 50px;
+}
+/* song played name */
+.text-player{
+    padding: 0 10px;
+    float: right;
+    color: #fff;
+}
+.text-player p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #A3A3A3;
+}
+.interaction i{
+    color: #A3A3A3;
+    padding: 0 5px;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     /* fix main content */
