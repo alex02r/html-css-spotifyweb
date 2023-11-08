@@ -42,13 +42,13 @@
 }
 /* LAYOUT */
 .top{
-    height: calc(100vh - 75px);
+    height: calc(100vh - 100px);
     background-color: aquamarine;
 }
 .bottom{
     position: fixed;
     width: 100%;
-    height: 75px;
+    height: 100px;
     background-color: #282828;
 }
 .top-content{
@@ -270,7 +270,7 @@
     font-weight: 600;
 }
 .state-bar{
-    width: 100%;
+    width: 70%;
     height: 5px;
     border-radius: 5px;
     background-color: rgba(106, 106, 106, 0.364);
