@@ -337,10 +337,19 @@
 .album:hover .overlay{
     display: block;
 }
-/* hover for button in header */
-.btn-upgrade:hover{
+/* hover effect general*/
+.btn-upgrade:hover, .player-bar i:nth-child(3):hover{
     transform: scale(1.2);
 }
+
+.first-nav li:hover, .name-playlist li:hover, .add-playlist:hover, .download:hover, .interaction i:hover{
+    color: #fff;
+}
+.add-playlist:hover .square-plus{
+    background-color: #fff;
+}
+
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
